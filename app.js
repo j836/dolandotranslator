@@ -17,7 +17,9 @@ function generateURL(text) {
 
 function clickHandler() {
     //  alert('Here we go');
-
+    if(txtinput.value === undefined || txtinput.value === "") {
+        window.alert('Empty input!!Please enter text to get its translation');
+    }
     fetch(generateURL(txtinput.value))
     .then(response => response.json())
     .then(json => {txtoutput.innerText = json.contents.translated});
