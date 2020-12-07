@@ -53,8 +53,7 @@ body {
 }
 
 .hr {
-    border-top: 3px solid sandybrown;
-    color:sandybrown;
+    border-top: 1px solid black;
 }
 
 .about-content {
@@ -81,7 +80,7 @@ body {
    font-size: 2rem;
 }
 .txt:focus  {
-    background-color: sandybrown;
+    background-color: whitesmoke;
     border-radius: 1rem;
     
 }
@@ -163,11 +162,15 @@ body {
     html {
         font-size:50.5%;
     }
-
+    body {
+        letter-spacing: 2px;
+    }
     .header {
         flex-wrap: wrap;
     }
-
+    .secondary-header {
+        padding-top:1rem;
+    }
     .about-translator {
         padding: 1em;
         margin: 0em;
@@ -176,6 +179,19 @@ body {
         font-size: 2rem;
         padding: 1rem;
     }
+    .input-header,.output-header {
+        font-size: 2rem;
+    }
+
+    .txt {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .sweg-image {
+        max-width: 5rem;
+    }
+    
     
    
 }
