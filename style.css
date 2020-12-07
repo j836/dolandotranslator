@@ -210,3 +210,20 @@ body {
     }
    
 }
+
+@media (orientation:landscape) {
+    .rotate::before {   
+        content: 'Currently we dont support Landscape version..Please rotate your mobile..!';
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        font-size: 5rem;
+        padding: 2rem;
+    }
+    .container {
+        visibility: hidden;
+    }
+
+
+}
