@@ -8,7 +8,7 @@
 body {
     font-family: 'Yatra One', cursive;
     /* font-family: 'BioRhyme', serif; */
-    background-color: rgb(192, 175, 154);
+    background-color: rgb(207, 167, 117);
     overflow-x: hidden;
 }
 
@@ -161,12 +161,21 @@ body {
 
 @media only screen and (max-width:540px) {
     html {
-        font-size:32.5%;
+        font-size:50.5%;
     }
 
     .header {
         flex-wrap: wrap;
     }
 
+    .about-translator {
+        padding: 1em;
+        margin: 0em;
+    }
+    .about-content {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
    
 }
