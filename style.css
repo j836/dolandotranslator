@@ -159,6 +159,10 @@ body {
     font-size: larger;
 }
 
+#instagram,#linkedin,#github {
+    color: black;
+}
+
 @media only screen and (max-width:540px) {
     html {
         font-size:50.5%;
@@ -195,6 +199,9 @@ body {
     .footer {
         font-size: 2rem;
     }
-    
+    .goes-here {
+        display: flex;
+        justify-content: center;
+    }
    
 }
